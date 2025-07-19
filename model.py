@@ -534,7 +534,7 @@ if __name__ == '__main__':
     dataset_name = "geoglue"
     device_idx = 0
 
-    v = 9
+    v = 1
     save_dir = f"./save/checkpoint_v{v}"
     if not os.path.exists(save_dir): os.makedirs(save_dir)
 
